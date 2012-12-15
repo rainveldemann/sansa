@@ -346,3 +346,56 @@
 #5 /var/www/sansa/system/classes/Kohana/Request.php(990): Kohana_Request_Client->execute(Object(Request))
 #6 /var/www/sansa/index.php(118): Kohana_Request->execute()
 #7 {main} in /var/www/sansa/application/classes/Controller/Dashboard.php:8
+2012-12-15 06:28:35 --- EMERGENCY: Kohana_Exception [ 0 ]: Attempted to load an invalid or missing module 'modify' at 'MODPATH/modify' ~ SYSPATH/classes/Kohana/Core.php [ 579 ] in /var/www/sansa/application/bootstrap.php:117
+2012-12-15 06:28:35 --- DEBUG: #0 /var/www/sansa/application/bootstrap.php(117): Kohana_Core::modules(Array)
+#1 /var/www/sansa/index.php(102): require('/var/www/sansa/...')
+#2 {main} in /var/www/sansa/application/bootstrap.php:117
+2012-12-15 06:28:36 --- EMERGENCY: Kohana_Exception [ 0 ]: Attempted to load an invalid or missing module 'modify' at 'MODPATH/modify' ~ SYSPATH/classes/Kohana/Core.php [ 579 ] in /var/www/sansa/application/bootstrap.php:117
+2012-12-15 06:28:36 --- DEBUG: #0 /var/www/sansa/application/bootstrap.php(117): Kohana_Core::modules(Array)
+#1 /var/www/sansa/index.php(102): require('/var/www/sansa/...')
+#2 {main} in /var/www/sansa/application/bootstrap.php:117
+2012-12-15 06:29:06 --- EMERGENCY: ErrorException [ 1 ]: Undefined class constant 'render' ~ APPPATH/views/templates/default.php [ 52 ] in :
+2012-12-15 06:29:06 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in :
+2012-12-15 06:29:06 --- EMERGENCY: ErrorException [ 1 ]: Undefined class constant 'render' ~ APPPATH/views/templates/default.php [ 52 ] in :
+2012-12-15 06:29:06 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in :
+2012-12-15 06:29:07 --- EMERGENCY: ErrorException [ 1 ]: Undefined class constant 'render' ~ APPPATH/views/templates/default.php [ 52 ] in :
+2012-12-15 06:29:07 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in :
+2012-12-15 06:29:51 --- EMERGENCY: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH/classes/Kohana/Cookie.php [ 152 ] in /var/www/sansa/system/classes/Kohana/Cookie.php:67
+2012-12-15 06:29:51 --- DEBUG: #0 /var/www/sansa/system/classes/Kohana/Cookie.php(67): Kohana_Cookie::salt('session', NULL)
+#1 /var/www/sansa/system/classes/Kohana/Request.php(155): Kohana_Cookie::get('session')
+#2 /var/www/sansa/index.php(117): Kohana_Request::factory(true, Array, false)
+#3 {main} in /var/www/sansa/system/classes/Kohana/Cookie.php:67
+2012-12-15 06:30:15 --- EMERGENCY: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH/classes/Kohana/Cookie.php [ 152 ] in /var/www/sansa/system/classes/Kohana/Cookie.php:67
+2012-12-15 06:30:15 --- DEBUG: #0 /var/www/sansa/system/classes/Kohana/Cookie.php(67): Kohana_Cookie::salt('session', NULL)
+#1 /var/www/sansa/system/classes/Kohana/Request.php(155): Kohana_Cookie::get('session')
+#2 /var/www/sansa/index.php(117): Kohana_Request::factory(true, Array, false)
+#3 {main} in /var/www/sansa/system/classes/Kohana/Cookie.php:67
+2012-12-15 06:30:16 --- EMERGENCY: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH/classes/Kohana/Cookie.php [ 152 ] in /var/www/sansa/system/classes/Kohana/Cookie.php:67
+2012-12-15 06:30:16 --- DEBUG: #0 /var/www/sansa/system/classes/Kohana/Cookie.php(67): Kohana_Cookie::salt('session', NULL)
+#1 /var/www/sansa/system/classes/Kohana/Request.php(155): Kohana_Cookie::get('session')
+#2 /var/www/sansa/index.php(117): Kohana_Request::factory(true, Array, false)
+#3 {main} in /var/www/sansa/system/classes/Kohana/Cookie.php:67
+2012-12-15 06:30:16 --- EMERGENCY: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH/classes/Kohana/Cookie.php [ 152 ] in /var/www/sansa/system/classes/Kohana/Cookie.php:67
+2012-12-15 06:30:16 --- DEBUG: #0 /var/www/sansa/system/classes/Kohana/Cookie.php(67): Kohana_Cookie::salt('session', NULL)
+#1 /var/www/sansa/system/classes/Kohana/Request.php(155): Kohana_Cookie::get('session')
+#2 /var/www/sansa/index.php(117): Kohana_Request::factory(true, Array, false)
+#3 {main} in /var/www/sansa/system/classes/Kohana/Cookie.php:67
+2012-12-15 06:30:17 --- EMERGENCY: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH/classes/Kohana/Cookie.php [ 152 ] in /var/www/sansa/system/classes/Kohana/Cookie.php:67
+2012-12-15 06:30:17 --- DEBUG: #0 /var/www/sansa/system/classes/Kohana/Cookie.php(67): Kohana_Cookie::salt('session', NULL)
+#1 /var/www/sansa/system/classes/Kohana/Request.php(155): Kohana_Cookie::get('session')
+#2 /var/www/sansa/index.php(117): Kohana_Request::factory(true, Array, false)
+#3 {main} in /var/www/sansa/system/classes/Kohana/Cookie.php:67
+2012-12-15 06:30:17 --- EMERGENCY: Kohana_Exception [ 0 ]: A valid cookie salt is required. Please set Cookie::$salt. ~ SYSPATH/classes/Kohana/Cookie.php [ 152 ] in /var/www/sansa/system/classes/Kohana/Cookie.php:67
+2012-12-15 06:30:17 --- DEBUG: #0 /var/www/sansa/system/classes/Kohana/Cookie.php(67): Kohana_Cookie::salt('session', NULL)
+#1 /var/www/sansa/system/classes/Kohana/Request.php(155): Kohana_Cookie::get('session')
+#2 /var/www/sansa/index.php(117): Kohana_Request::factory(true, Array, false)
+#3 {main} in /var/www/sansa/system/classes/Kohana/Cookie.php:67
+2012-12-15 07:17:26 --- EMERGENCY: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH/classes/Controller/Dashboard.php [ 10 ] in :
+2012-12-15 07:17:26 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in :
+2012-12-15 07:17:40 --- EMERGENCY: ErrorException [ 4 ]: syntax error, unexpected ';' ~ APPPATH/classes/Controller/Dashboard.php [ 10 ] in :
+2012-12-15 07:17:40 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in :
